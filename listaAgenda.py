@@ -1,6 +1,6 @@
 from nodeAgenda import Node
 
-class Agenda:
+class ListaAgenda:
     def __init__(self):
         self.cabeca = None
         self.size = 0

@@ -2,10 +2,12 @@ from random import randint
 
 class Pessoa:
     ano_atual = 2021
-    def __init__(self, nome, idade, cpf):#construtor
+    def __init__(self, nome, idade, cpf, ano):#construtor
         self.nome = nome
         self.idade = idade
         self.cpf = cpf
+        self.ano = ano
+        
     
     def get_nome(self):
         return self.nome

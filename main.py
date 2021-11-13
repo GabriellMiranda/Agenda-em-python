@@ -1,9 +1,9 @@
 from pessoa import Pessoa
-from listaAgenda import Agenda
+from listaAgenda import ListaAgenda
 
 #gabriel
 
-AgendaDePessoas = Agenda()
+AgendaDePessoas = ListaAgenda()
 
 opcao = True
 while(opcao):
