@@ -20,7 +20,7 @@ class Compromisso:
 
     def imprime_compromisso(self):
         print(f'|Prioridade:{self.prioridade}')
-        print(f'Data:{self.dia}/{self.mes}/{self.ano}')
+        print(f'|Data:{self.dia}/{self.mes}/{self.ano}')
         print(f'|Hora:{self.hora}:{self.min}')
         print(f'|Descricao do compromisso:{self.descricao}')
         print(f'|Duracao do compromisso:{self.duracao}')    
